@@ -48,15 +48,9 @@ const Peoples= ({persons}:PeoplesProps) =>{
                     </TableHead>
                     <TableBody>
                     {persons.map((row) => (
-<<<<<<< HEAD
-                        <TableRow key={row.id}>
-                        <TableCell component="th" scope="row">
-                            {row.id}  
-=======
                         <TableRow key={row.name}>
                         <TableCell component="th" scope="row">
                             {row.name}  
->>>>>>> origin/main
                         </TableCell>
                         <TableCell align="right">{row.name}</TableCell>
                         <TableCell align="right">{row.details}</TableCell>
